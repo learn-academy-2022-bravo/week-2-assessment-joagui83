@@ -18,9 +18,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 2. The JavaScript built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
-  Your answer: .map() can take the index and the original array  as its paramater. Index can an optional parmater while the orginal array is needed
+  Your answer: .map() can take the index and the original array  as a needed parmater. Index is an optional parameter of .map().
 
-  Researched answer: .map() must take the function definition as its first parameter. 
+  Researched answer: .map() parametera are the definition of a function, Index, and callback of the original array. Index is an optional parameter, while function defition and callback of original array are needed parameters.
 
 
 3. What is the difference between map and filter?
@@ -30,14 +30,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Researched answer: map is a built in method that returns a new array with corresponding elements of the old array through a function. 
   
-  filter does change the original array but creates a new array with elements that pass a function test. It execute a function if the elements are empty.
+  filter does not change the original array but creates a new array with elements that pass a function test. It execute a function if the elements are empty.
 
 
 4. What is the difference between a function and a method?
 
-  Your answer:
+  Your answer:Function is code that you can re use multiple times until it meets a specifig task
+  Method is a function within an objec
 
-  Researched answer:
+  Researched answer:function is  a series of code block machines designed to perform a particular task or calculates a value. 
+  Method
+
 
 
 
@@ -46,7 +49,8 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Your answer: destructuring is assigning new variables from existing objects without the use of performing extra code blocks. 
 
   Researched answer:Synthax for extracting values form an object property and assigning them a variable with out needing extra code to create it.
-
+  
+  Methods are fucntions that are stored as object properties
 
 
 6. STRETCH: What is hoisting in JavaScript?
