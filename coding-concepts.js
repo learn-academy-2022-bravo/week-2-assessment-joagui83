@@ -73,3 +73,26 @@ var learnStudent = new Learn("George")
 // a) Your answer:{name: "George", cohort: "Bravo", year:"2022"}
 // b) Verify and explain: {name: "George", cohort: "Bravo", year:"2022"}
 //learnStudent is a child class with the instance of name: George created but it inherits the rest of the dat from the parent class: Learn since they are static and not dynamic like name is.
+
+
+
+
+
+function findFirstVowel(string){
+  let vowels = 'aeiou'
+  for(let i =0; i<string.length; i++){
+    if(vowels.includes(string[i])){
+      return i
+    }
+  }
+}
+
+const vowelTester1 = "learn"
+// Expected output: 1
+const vowelTester2 = "academy"
+// Expected output: 0
+const vowelTester3 = "challenges"
+
+console.log(findFirstVowel(vowelTester1))
+
+
